@@ -4,3 +4,11 @@
 
 @import 'normalize.scss';
 @import 'base.scss';
+
+@import 'header.scss';
+@import './section1.scss';
+
+
+a {
+  text-decoration: none;
+}
