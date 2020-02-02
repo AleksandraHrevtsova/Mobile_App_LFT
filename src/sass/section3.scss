@@ -1,0 +1,50 @@
+.container {
+  width: 292px;
+  margin: 0 auto;
+}
+
+.section_wrapper {
+  background: #31d4e7;
+  background-size: cover;
+}
+
+.section-3 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section-3_title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-3_text {
+  text-align: center;
+}
+
+.support {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 190px;
+  margin: 0 auto;
+}
+
+.circle {
+  align-self: center;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 50%;
+  background: darkblue;
+  display: flex;
+  justify-content: center;
+}
+
+.ico {
+  align-self: center;
+}
+
+// .ico img {
+//   display: block;
+// }
