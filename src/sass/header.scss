@@ -172,3 +172,9 @@ a {
     display: none;
   }
 }
+
+@media (min-width: 1199px) {
+  .container {
+    width: 1120px;
+  }
+}

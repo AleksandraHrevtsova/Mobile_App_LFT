@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env PORT=1234 gulp start --development ",
-    "build": "gulp build --production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "prepare": "gulp prepare",
+    "start": "gulp start",
+    "build": "gulp build",
+    "sprite": "gulp sprite",
+    "images": "gulp images"
   },
   "homepage": "https://aleksandrahrevtsova.github.io/Mobile_App_LFT",
   "repository": {
@@ -32,6 +33,7 @@
     "gulp-babel": "^8.0.0-beta.2",
     "gulp-cache-bust": "^1.4.1",
     "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^6.1.1",
@@ -45,8 +47,13 @@
     "gulp-sass": "^4.0.2",
     "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-svgo": "^2.1.1",
+    "gulp-svgstore": "^7.0.1",
     "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
     "require-dir": "^1.2.0",
+    "stylelint": "^13.0.0",
     "usedcss": "^1.0.7"
   }
 }

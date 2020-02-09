@@ -48,6 +48,11 @@ li:last-child {
   justify-content: space-between;
 }
 
+.item_icon {
+  // width: 40px;
+  // height: 40px;
+}
+
 .item_text {
   display: flex;
   flex-flow: column;
@@ -56,4 +61,19 @@ li:last-child {
 
 h3 {
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 708px;
+    margin: 0 auto;
+  }
+
+  .section-2_title::before {
+    left: 31%;
+  }
+
+  .section-2_title::after {
+    right: 31%;
+  }
 }
